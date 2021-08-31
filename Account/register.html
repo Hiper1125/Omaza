@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <link rel="stylesheet" type="text/css" href="css/anim.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/register.js"></script>
+    <script src="js/transition.js"></script>
+    <link rel="icon" href='img/favicon.png'>
+    <title>Register — Omaza</title>
+</head>
+
+<body class="animate-in"">
+    <div class="Content">
+        <a href="../Shop/index.html"><img class="logo" src="img/omaza_logo_dark.svg"></a>
+        <div class="Form">
+            <div class="Login">
+                <form id="form" action="#" onsubmit="return Register();">
+                    <h1 class="header">Register</h1>
+
+                    <div class="box">
+                        <p class="username">Username</p>
+                        <input type="username" name="username" id="username" required>
+                    </div>
+
+                    <div class="box">
+                        <p class="email">E-mail</p>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <div class="box">
+                        <div class="text">
+                            <p class="password">Password</p>
+                        </div>
+                        <input type="password" name="password1" id="password1" required>
+                    </div>
+
+                    <div class="box">
+                        <div class="text">
+                            <p id="wrong-txt" class="password">Repeat Password</p>
+                            <div class="right">
+                                <p class="wrong-txt" id="wrong" style="display: none;">Password does not match</p>
+                            </div>
+                        </div>
+                        <input class="" type="password" name="password2" id="password2" oninput="CheckPassword()" required>
+                    </div>
+
+                    <button class="login-btn">Create Account</button>
+
+                </form>
+            </div>
+
+            <div class="Register">
+                <div class="register-new">
+                    <p class="line">
+                        <span>Already registered?</span>
+                    </p>
+                </div>
+                <button class="register-btn" onclick="window.location.href = 'login.html'">Login to your Omaza account</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

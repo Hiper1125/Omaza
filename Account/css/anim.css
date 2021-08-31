@@ -1,0 +1,45 @@
+.animate-in {
+  -webkit-animation: fadeIn 0.5s ease-in;
+  animation: fadeIn 0.2s ease-in;
+}
+
+.animate-out {
+  -webkit-animation: fadeOut 0.5s ease-out;
+  animation: fadeOut 0.2s ease-in;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
