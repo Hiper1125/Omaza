@@ -17,7 +17,7 @@
 > The name Amazon as well as related names, marks, emblems and images are registered trademarks of their respective owners.
 
 # License
-> [MIT](https://github.com/Hiper1125/dnd-bot/blob/main/LICENSE)
+> [MIT](https://github.com/Hiper1125/omaza/blob/main/LICENSE)
 
 # Authors
 > Made by [Hiper1125](https://github.com/Hiper1125)
