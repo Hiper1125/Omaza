@@ -5,7 +5,7 @@
 > Omaza is a website made for a school project, created to imitate a well-known E-Commerce site.
 
 # Screenshot
-![Register](https://raw.githubusercontent.com/Hiper1125/omaza/main/register.png)
+![Sei nuovo su omaza???](https://raw.githubusercontent.com/Hiper1125/omaza/main/register.png)
 
 # Features
 > Omaza allows you to register, to log in, and to search for products in a local database.
